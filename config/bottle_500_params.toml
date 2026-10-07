@@ -1,0 +1,66 @@
+# Chai PET hot-fill 500 ml — CONCEPT (CHƯA DUYỆT SẢN XUẤT)
+# Mẫu tham chiếu: M38 – 500 ml (Mẫu F), chai thường 36 g.
+#
+# Mỗi tham số là một bảng { value, class, note }. class gồm:
+#   image       = đọc trực tiếp từ ảnh/thông số mẫu gốc
+#   assumption  = giả định của người dựng concept, để có hình xem được; KHÔNG phải thông số sản xuất
+#   factory     = giá trị giữ chỗ; BẮT BUỘC nhà máy xác nhận/thay thế trước khi dùng
+# Đơn vị: mm, độ, ml, trừ khi ghi khác. Gốc tọa độ: tâm đáy, trục Z hướng lên.
+
+[body]
+width        = { value = 61.0,  class = "image",      note = "Thân gần vuông 61 x 61 mm (ảnh)." }
+depth        = { value = 61.0,  class = "image",      note = "Như trên." }
+corner_r     = { value = 11.0,   class = "assumption", note = "Bán kính bo góc thân. Ảnh không cho giá trị. Bo lớn hơn = cứng hơn nhưng mặt phẳng nhãn hẹp hơn (61 - 2R)." }
+height_total = { value = 188.0, class = "image",      note = "Chiều cao chai ghi trên ảnh (chưa nắp)." }
+
+[zones]
+# Chiều cao từng đoạn: ảnh không ghi, ước lượng bằng mắt từ ảnh sản phẩm.
+heel_top_z        = { value = 22.0,  class = "assumption", note = "Đỉnh vùng gót/đáy = đáy vùng nhãn (ước từ ảnh: gót ~13-20 mm)." }
+label_top_z       = { value = 121.0, class = "assumption", note = "Đỉnh vùng nhãn (thân thẳng). Ảnh cho thấy thân thẳng cao, vai ngắn ~15-20 mm." }
+label_margin_z    = { value = 3.0,   class = "assumption", note = "Chừa mép trên/dưới vùng nhãn so với gân/rãnh để không dán lên chỗ chuyển tiếp." }
+shoulder_top_z    = { value = 158.0, class = "assumption", note = "Chân cổ = nơi vai gặp cổ." }
+shoulder_start_z  = { value = 128.0, class = "assumption", note = "Cao độ vai bắt đầu thu vào ở góc chéo (đỉnh đường cong bao)." }
+
+shoulder_curve_exp = { value = 1.5, class = "assumption", note = "Độ cong đường bao vai: r = r_cổ + a(1 - s^p), s = tỉ lệ chiều cao vai. p lớn = vai dốc/cao hơn ở sát cổ. Chỉnh để khớp hình dáng vai ảnh gốc." }
+
+[neck]
+# Cổ chai: placeholder hình trụ đơn giản. KHÔNG phải chuẩn ren/finish.
+finish_od        = { value = 38.0, class = "image",   note = "Ảnh ghi 'đường kính miệng chai 38 mm'. Chưa rõ là OD ren hay OD miệng; dùng làm OD cổ placeholder. Không suy ra chuẩn finish." }
+finish_id        = { value = 31.0, class = "factory", note = "Đường kính trong miệng placeholder. Lấy theo finish thật của nhà máy." }
+support_ring_od  = { value = 43.0, class = "factory", note = "Vòng đỡ/ledge placeholder, không phải kích thước chuẩn." }
+support_ring_z   = { value = 166.0, class = "factory", note = "Cao độ vòng đỡ placeholder." }
+support_ring_h   = { value = 2.5,  class = "factory", note = "Dày vòng đỡ placeholder." }
+thread_modelled  = { value = false, class = "factory", note = "Không dựng ren. Ren/finish do nhà máy cung cấp." }
+
+[wall]
+t_model          = { value = 0.45, class = "factory", note = "Độ dày thành đồng đều CHỈ để dựng khoang trong. Không đại diện phân bố độ dày sau thổi." }
+
+[features]
+# Các đặc điểm kết cấu (concept). Đều nằm NGOÀI vùng nhãn.
+upper_band_enable = { value = true, class = "assumption", note = "Rãnh cứng hóa nông quanh chu vi, ngay trên vùng nhãn." }
+upper_band_z      = { value = 125.0, class = "assumption", note = "Tâm rãnh trên (cao độ)." }
+lower_band_enable = { value = true, class = "assumption", note = "Rãnh cứng hóa nông quanh chu vi, ngay dưới vùng nhãn." }
+lower_band_z      = { value = 16.0, class = "assumption", note = "Tâm rãnh dưới." }
+band_width        = { value = 5.0,  class = "assumption", note = "Chiều rộng rãnh." }
+band_depth        = { value = 1.2,  class = "assumption", note = "Độ sâu rãnh, nông để không cắt khuôn thổi." }
+heel_fillet_r     = { value = 6.0,  class = "assumption", note = "Bo gót đáy." }
+
+[base]
+# Đáy: vòng đỡ ngoài + màng trung tâm lõm dạng vòm (ứng viên hấp thụ chân không).
+# Chưa có dữ liệu để thiết kế cơ cấu hoạt động; xem docs/GHI_CHU_KY_THUAT.md.
+diaphragm_r       = { value = 26.0, class = "assumption", note = "Bán kính màng trung tâm." }
+diaphragm_depth   = { value = 10.0,  class = "assumption", note = "Độ lõm (push-up) của màng so với mặt đứng." }
+
+[capacity]
+# Quy ước tính dung tích: từ KHOANG TRONG, không dùng thể tích solid ngoài.
+target_fill_ml    = { value = 500.0, class = "image", note = "Dung tích chiết rót danh định 500 ml." }
+fill_point_drop_from_top = { value = 12.0, class = "factory", note = "Mức chiết rót giả định thấp hơn đỉnh miệng bao nhiêu mm. Nhà máy/khách hàng xác định theo headspace thực." }
+
+[process_unknown]
+# Không dùng để dựng hình; liệt kê để nhà máy bổ sung.
+fill_temperature_c   = { value = "CHƯA CÓ", class = "factory", note = "Nhiệt độ chiết rót." }
+hold_time_s          = { value = "CHƯA CÓ", class = "factory", note = "Thời gian giữ nóng trước khi làm nguội." }
+preform_spec         = { value = "CHƯA CÓ", class = "factory", note = "Phôi: khối lượng, vật liệu, độ dày, finish." }
+heat_set_process     = { value = "CHƯA CÓ", class = "factory", note = "Quy trình thổi chịu nhiệt (nhiệt khuôn, thời gian, độ kết tinh)." }
+closure_spec         = { value = "CHƯA CÓ", class = "factory", note = "Nắp có vòng niêm phong phù hợp finish." }
+target_vacuum_ml     = { value = "CHƯA CÓ", class = "factory", note = "Lượng co thể tích cần hấp thụ khi nguội." }

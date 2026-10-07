@@ -1,0 +1,27 @@
+{
+ "outer_valid": true,
+ "outer_solids": 1,
+ "hollow_valid": true,
+ "hollow_solids": 1,
+ "cavity_valid": true,
+ "cavity_solids": 1,
+ "bbox_mm": [
+  61.0,
+  61.0,
+  188.0
+ ],
+ "bbox_matches_ref": true,
+ "cavity_brimful_ml": 540.9,
+ "cavity_ml_at_assumed_fill_point": 531.8,
+ "assumed_fill_point_z_mm": 176.0,
+ "fill_level_z_for_target_mm": 148.31,
+ "headspace_pct_at_target": 7.6,
+ "label_zone": {
+  "z_lo": 25.0,
+  "z_hi": 118.0,
+  "flat_width": 39.0,
+  "height": 93.0,
+  "area_per_face_mm2": 3627.0,
+  "area_4_faces_mm2": 14508.0
+ }
+}

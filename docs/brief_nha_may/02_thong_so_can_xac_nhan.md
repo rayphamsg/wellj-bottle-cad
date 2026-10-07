@@ -1,0 +1,40 @@
+# Danh sách thông số cần nhà máy xác nhận — chai PET 500 ml (CONCEPT — CHƯA DUYỆT SẢN XUẤT)
+
+Cột 'CAD' là giá trị giả định hoặc đọc từ ảnh để dựng hình, **không phải** thông số sản xuất. Cột 'Nhà máy điền' để trống. File CSV cùng tên mở được bằng Excel để điền.
+
+| Mã | Nhóm | Thông số cần xác nhận | Giá trị / nguồn trong CAD | Nhà máy điền | Ghi chú |
+|---|---|---|---|---|---|
+| A1 | Cổ / nắp | Chuẩn finish/cổ (loại, mã, ren, OD ren, ID miệng) | Placeholder hình trụ Ø38 (ảnh ghi 'miệng 38 mm'; chưa rõ OD ren hay OD miệng); ID giả định 31. Không dựng ren. | | Nhà máy cung cấp chuẩn/bản vẽ finish. Không suy chuẩn từ '38 mm'. |
+| A2 | Cổ / nắp | Chiều cao finish, vị trí và kích thước vòng đỡ (support ledge) | Placeholder: vòng Ø43 tại z=166, dày 2.5; cổ cao 30. | |  |
+| A3 | Cổ / nắp | Nắp có vòng niêm phong phù hợp (loại, chất liệu, liner, mô-men đóng/mở) | Chưa có | | Ảnh mẫu có nắp đen/trắng có vòng niêm phong. |
+| A4 | Cổ / nắp | Cổ có kết tinh (neck crystallization) hay không | Chưa có | |  |
+| B1 | Phôi | Mã phôi, khối lượng (g), vật liệu/IV, độ dày thành phôi | Chưa có | | Không suy từ chai thường 36 g. |
+| B2 | Phôi | Khối lượng chai hot-fill đề xuất (g) | Chưa có | | 36 g chỉ là chai thường tham chiếu. |
+| C1 | Quy trình | Thiết bị thổi và khuôn hiện có (heat-set? đáy chuyển động được không?) | Chưa có | | Quyết định câu hỏi 1. |
+| C2 | Quy trình | Quy trình thổi chịu nhiệt: nhiệt khuôn, thời gian giữ, độ kết tinh mục tiêu | Chưa có | |  |
+| C3 | Quy trình | Nhiệt độ chiết rót (°C) và thời gian giữ nóng (s) | Chưa có | | Chủ dự án/nhà máy chốt; CAD không suy ra được. |
+| C4 | Quy trình | Cách làm nguội (nhúng/phun/đường hầm), thời gian, nhiệt độ cuối | Chưa có | |  |
+| C5 | Quy trình | Sản phẩm chiết rót (loại, độ nhớt, có CO₂/bọt không) | Chủ dự án bổ sung | |  |
+| D1 | Dung tích | Định nghĩa '500 ml' (ở nhiệt độ nào; đầy miệng hay chiết rót) | Ảnh: dung tích danh định 500 ml | |  |
+| D2 | Dung tích | Dung tích đầy miệng đề xuất (ml) | 540,9 ml — hình học khoang trong với thành đều 0,45 mm GIẢ ĐỊNH | | Chỉ để so sánh; không dùng làm xác nhận. |
+| D3 | Dung tích | Khoảng trống đầu chai đề xuất (ml, %, mm) và mức chiết rót (mm dưới đỉnh miệng) | 500 ml ở z=148,3 mm (trong vai), khoảng trống ≈ 7,6% — hình học | | Với giả định hiện tại mức 500 ml nằm trong vai; cần nhà máy cho giá trị thực. |
+| D4 | Dung tích | Thể tích co cần hấp thụ khi nguội (ml) ở điều kiện C3–C4 | Chưa có | |  |
+| E1 | Chân không / đáy | Có xử lý chân không chủ yếu ở đáy được không (Có / Không / Một phần) | Đáy CAD: màng lõm TĨNH, không phải cơ cấu hoạt động | | Câu hỏi 1. |
+| E2 | Chân không / đáy | Loại cơ cấu đáy, hành trình (mm), thể tích hấp thụ (ml) | Màng R26 sâu 10. Minh họa: dịch 3 mm ≈ 3,8 ml (chỉ tính hình học, CHƯA kiểm chứng) | | Không dùng con số minh họa làm năng lực thật. |
+| E3 | Chân không / đáy | Thay đổi cần ở đáy so với CAD (bán kính, độ sâu, gân, vòng đỡ, độ dày) | — | | Đánh dấu lên bản vẽ trang 2. |
+| E4 | Chân không / đáy | Chân không dư sau khi nguội (kPa hoặc mmHg) và ngưỡng chấp nhận | Chưa có | |  |
+| E5 | Kết cấu thêm | Kết cấu tối thiểu phải thêm nếu đáy không đủ: vị trí, loại, kích thước, chức năng (dùng vùng ②–⑥) | Chưa có | | Câu hỏi 2; đánh dấu trực tiếp lên bản vẽ. |
+| E6 | Kết cấu thêm | Bán kính bo góc tối thiểu/tối ưu | R11 (giả định) | | Ảnh hưởng nhãn quấn. |
+| E7 | Kết cấu thêm | Biên dạng vai: giữ vòm hiện tại hay cần đổi | Vòm mặt phẳng, z 128–158 (giả định) | | Đổi vai ảnh hưởng nhận diện. |
+| E8 | Kết cấu thêm | Rãnh chu vi trên/dưới nhãn: có dùng được với khuôn không (undercut, độ sâu) | 2 rãnh sâu 1.2, rộng 5, tại z=16 và 125 (giả định) | |  |
+| E9 | Kết cấu thêm | Độ dày thành mục tiêu theo vùng: đáy, gót, thân (mặt/góc), vai, cổ | Thành đều 0,45 mm CHỈ để dựng khoang (giả định) | | Không đại diện phân bố sau thổi. |
+| E10 | Khuôn | Vị trí đường chia khuôn (parting line): có đặt ở góc để giữ 4 mặt nhãn sạch được không | Chưa có | |  |
+| F1 | Nhãn | Diện tích nhãn phẳng còn lại mỗi mặt và tổng 4 mặt (mm²), kích thước | 39 × 93 = 3.627 mm²/mặt; 14.508 mm² tổng 4 mặt | | Mục tiêu: giữ tối đa. Nhà máy cho con số còn lại và % so với CAD. |
+| F2 | Nhãn | Vùng nhãn quấn quanh thân còn lại (chu vi × chiều cao, mm²) | chu vi 225,1 × 93 ≈ 20.936 mm² | | Gồm 4 góc bo. |
+| F3 | Nhãn | Chiều cao vùng thân trơn tối đa giữa hai rãnh | Vùng nhãn tham chiếu z 25–118 (cao 93); mép chừa 3 | |  |
+| F4 | Nhãn | Độ phẳng cho phép của mặt nhãn sau khi nguội (lõm/phồng, mm) | Chưa có | | Nhà máy đề xuất ngưỡng đo được. |
+| G1 | Thử nghiệm | Thử chiết rót nóng thực tế: số mẫu, điều kiện, nơi thực hiện | — | | Câu hỏi 5. |
+| G2 | Thử nghiệm | Tiêu chí đạt: co thể tích (%), biến dạng mặt nhãn (mm), ổn định đứng/rocker, chân không dư | Chưa có — nhà máy đề xuất ngưỡng | |  |
+| G3 | Thử nghiệm | Tiêu chí đạt: tải dọc, rò rỉ/mô-men nắp, thả rơi, xếp chồng | Chưa có — nhà máy đề xuất ngưỡng | |  |
+| G4 | Thử nghiệm | Phân bố độ dày thành (cắt mẫu) và kiểm tra nhãn thực tế sau nguội/lưu kho | Chưa có | |  |
+| H1 | Thương mại | Chi phí khuôn, MOQ, thời gian mẫu (nếu đã biết) | — | | Tùy chọn. |
