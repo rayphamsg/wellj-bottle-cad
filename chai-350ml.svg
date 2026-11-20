@@ -1,90 +1,76 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 297" width="420mm" height="297mm" font-family="Arial,sans-serif" fill="none" stroke="#000">
 <rect width="420" height="297" fill="#fff" stroke="none"/><rect x="5" y="5" width="410" height="287" stroke-width=".7"/>
-<path d="M 85.50,30.00 L 85.50,49.00 L 88.50,51.00 L 88.50,53.50 L 86.50,54.50 L 86.50,57.00 C 98.00,60.00 99.85,72.00 99.85,91.00 C 99.85,95.00 101.92,97.00 101.92,102.00 L 101.92,192.00 C 101.92,197.00 100.42,199.50 97.92,200.00 L 46.08,200.00 C 43.58,199.50 42.08,197.00 42.08,192.00 L 42.08,102.00 C 42.08,97.00 44.15,95.00 44.15,91.00 C 44.15,72.00 46.00,60.00 57.50,57.00 L 57.50,54.50 L 55.50,53.50 L 55.50,51.00 L 58.50,49.00 L 58.50,30.00 L 58.50,30.00 Z" stroke-width=".8" fill="#eef4f8"/>
-<line x1="58.50" y1="33.00" x2="85.50" y2="33.00" stroke="#000" stroke-width="0.25"/>
-<line x1="58.50" y1="36.50" x2="85.50" y2="36.50" stroke="#000" stroke-width="0.25"/>
-<line x1="58.50" y1="40.00" x2="85.50" y2="40.00" stroke="#000" stroke-width="0.25"/>
-<line x1="58.50" y1="43.50" x2="85.50" y2="43.50" stroke="#000" stroke-width="0.25"/>
-<line x1="72.00" y1="24.00" x2="72.00" y2="204.00" stroke="#000" stroke-width="0.2" stroke-dasharray="6 1 1 1"/>
-<rect x="39.07887069872368" y="91" width="65.84225860255265" height="90" stroke="#d00" stroke-width=".4" stroke-dasharray="2 1" fill="#d00" fill-opacity=".06"/>
-<line x1="39.08" y1="91.00" x2="104.92" y2="91.00" stroke="#06c" stroke-width="0.3"/>
-<text stroke="none" fill="#06c" x="106.92112930127632" y="92" font-size="3" text-anchor="start" font-weight="normal">C1=175</text>
-<line x1="39.08" y1="105.00" x2="104.92" y2="105.00" stroke="#06c" stroke-width="0.3"/>
-<text stroke="none" fill="#06c" x="106.92112930127632" y="106" font-size="3" text-anchor="start" font-weight="normal">C2=188</text>
-<line x1="39.08" y1="133.00" x2="104.92" y2="133.00" stroke="#06c" stroke-width="0.3"/>
-<text stroke="none" fill="#06c" x="106.92112930127632" y="134" font-size="3" text-anchor="start" font-weight="normal">C3=188</text>
-<line x1="39.08" y1="169.00" x2="104.92" y2="169.00" stroke="#06c" stroke-width="0.3"/>
-<text stroke="none" fill="#06c" x="106.92112930127632" y="170" font-size="3" text-anchor="start" font-weight="normal">C4=188</text>
-<line x1="131.92" y1="30.00" x2="131.92" y2="200.00" stroke="#000" stroke-width="0.25"/>
-<line x1="130.72" y1="30.00" x2="133.12" y2="30.00" stroke="#000" stroke-width="0.25"/>
-<line x1="130.72" y1="200.00" x2="133.12" y2="200.00" stroke="#000" stroke-width="0.25"/>
-<text stroke="none" fill="#000" transform="translate(134.92112930127632,115.0) rotate(-90)" font-size="3.3" text-anchor="middle">A = 170</text>
-<line x1="86.00" y1="30.00" x2="132.92" y2="30.00" stroke="#000" stroke-width="0.2"/>
-<line x1="97.92" y1="200.00" x2="132.92" y2="200.00" stroke="#000" stroke-width="0.2"/>
-<line x1="34.08" y1="91.00" x2="34.08" y2="181.00" stroke="#000" stroke-width="0.25"/>
-<line x1="32.88" y1="91.00" x2="35.28" y2="91.00" stroke="#000" stroke-width="0.25"/>
-<line x1="32.88" y1="181.00" x2="35.28" y2="181.00" stroke="#000" stroke-width="0.25"/>
-<text stroke="none" fill="#000" transform="translate(32.07887069872368,136.0) rotate(-90)" font-size="3.3" text-anchor="middle">B = D = 90</text>
-<line x1="42.08" y1="91.00" x2="33.08" y2="91.00" stroke="#000" stroke-width="0.2"/>
-<line x1="42.08" y1="181.00" x2="33.08" y2="181.00" stroke="#000" stroke-width="0.2"/>
-<line x1="34.08" y1="181.00" x2="34.08" y2="200.00" stroke="#000" stroke-width="0.25"/>
-<line x1="32.88" y1="181.00" x2="35.28" y2="181.00" stroke="#000" stroke-width="0.25"/>
-<line x1="32.88" y1="200.00" x2="35.28" y2="200.00" stroke="#000" stroke-width="0.25"/>
-<text stroke="none" fill="#000" transform="translate(32.07887069872368,190.5) rotate(-90)" font-size="3.3" text-anchor="middle">E = 19</text>
-<line x1="46.08" y1="200.00" x2="33.08" y2="200.00" stroke="#000" stroke-width="0.2"/>
-<line x1="24.08" y1="30.00" x2="24.08" y2="91.00" stroke="#000" stroke-width="0.25"/>
-<line x1="22.88" y1="30.00" x2="25.28" y2="30.00" stroke="#000" stroke-width="0.25"/>
-<line x1="22.88" y1="91.00" x2="25.28" y2="91.00" stroke="#000" stroke-width="0.25"/>
-<text stroke="none" fill="#000" transform="translate(22.078870698723676,60.5) rotate(-90)" font-size="3.3" text-anchor="middle">F = 61</text>
-<line x1="58.50" y1="30.00" x2="23.08" y2="30.00" stroke="#000" stroke-width="0.2"/>
-<line x1="39.08" y1="91.00" x2="23.08" y2="91.00" stroke="#000" stroke-width="0.2"/>
-<line x1="14.08" y1="30.00" x2="14.08" y2="51.00" stroke="#000" stroke-width="0.25"/>
-<line x1="12.88" y1="30.00" x2="15.28" y2="30.00" stroke="#000" stroke-width="0.25"/>
-<line x1="12.88" y1="51.00" x2="15.28" y2="51.00" stroke="#000" stroke-width="0.25"/>
-<text stroke="none" fill="#000" transform="translate(12.078870698723676,40.5) rotate(-90)" font-size="3.3" text-anchor="middle">21</text>
-<line x1="23.08" y1="51.00" x2="13.08" y2="51.00" stroke="#000" stroke-width="0.2"/>
-<line x1="23.08" y1="30.00" x2="13.08" y2="30.00" stroke="#000" stroke-width="0.2"/>
-<line x1="58.00" y1="26.00" x2="86.00" y2="26.00" stroke="#000" stroke-width="0.25"/>
-<line x1="58.00" y1="24.80" x2="58.00" y2="27.20" stroke="#000" stroke-width="0.25"/>
-<line x1="86.00" y1="24.80" x2="86.00" y2="27.20" stroke="#000" stroke-width="0.25"/>
-<text stroke="none" fill="#000" x="72.0" y="24.5" font-size="3.3" text-anchor="middle" font-weight="normal">Ø28 (F28_1810)</text>
-<line x1="42.08" y1="207.00" x2="101.92" y2="207.00" stroke="#000" stroke-width="0.25"/>
-<line x1="42.08" y1="205.80" x2="42.08" y2="208.20" stroke="#000" stroke-width="0.25"/>
-<line x1="101.92" y1="205.80" x2="101.92" y2="208.20" stroke="#000" stroke-width="0.25"/>
-<text stroke="none" fill="#000" x="72.0" y="205.5" font-size="3.3" text-anchor="middle" font-weight="normal">Ø60 (C2-C4)</text>
-<text stroke="none" fill="#000" x="72" y="217" font-size="4" text-anchor="middle" font-weight="bold">MẶT TRƯỚC (1:1)</text>
-<text stroke="none" fill="#000" x="247.5" y="73" font-size="4" text-anchor="middle" font-weight="bold">TRẢI PHẲNG SHRINK SLEEVE (1:1)</text>
-<rect x="150" y="91" width="195" height="90" stroke="#d00" stroke-width=".6"/>
-<rect x="338" y="91" width="7" height="90" fill="#d00" fill-opacity=".15" stroke="none"/>
-<text stroke="none" fill="#a00" x="341.5" y="136.0" font-size="2.8" text-anchor="middle" font-weight="normal">mép dán</text>
-<rect x="153" y="94" width="182" height="84" stroke="#090" stroke-width=".3" stroke-dasharray="2 1"/>
-<text stroke="none" fill="#090" x="244.0" y="136.0" font-size="3" text-anchor="middle" font-weight="normal">VÙNG IN AN TOÀN</text>
-<line x1="150.00" y1="91.00" x2="338.00" y2="91.00" stroke="#06c" stroke-width="0.3" stroke-dasharray="3 1.5"/>
-<text stroke="none" fill="#06c" x="153" y="90" font-size="3" text-anchor="start" font-weight="normal">C1 = 175</text>
-<rect x="156.5" y="90.6" width="175" height=".8" fill="#06c" stroke="none"/>
-<line x1="150.00" y1="105.00" x2="338.00" y2="105.00" stroke="#06c" stroke-width="0.3" stroke-dasharray="3 1.5"/>
-<text stroke="none" fill="#06c" x="153" y="104" font-size="3" text-anchor="start" font-weight="normal">C2 = 188</text>
-<rect x="150.0" y="104.6" width="188" height=".8" fill="#06c" stroke="none"/>
-<line x1="150.00" y1="133.00" x2="338.00" y2="133.00" stroke="#06c" stroke-width="0.3" stroke-dasharray="3 1.5"/>
-<text stroke="none" fill="#06c" x="153" y="132" font-size="3" text-anchor="start" font-weight="normal">C3 = 188</text>
-<rect x="150.0" y="132.6" width="188" height=".8" fill="#06c" stroke="none"/>
-<line x1="150.00" y1="169.00" x2="338.00" y2="169.00" stroke="#06c" stroke-width="0.3" stroke-dasharray="3 1.5"/>
-<text stroke="none" fill="#06c" x="153" y="168" font-size="3" text-anchor="start" font-weight="normal">C4 = 188</text>
-<rect x="150.0" y="168.6" width="188" height=".8" fill="#06c" stroke="none"/>
-<line x1="150.00" y1="188.00" x2="338.00" y2="188.00" stroke="#000" stroke-width="0.25"/>
-<line x1="150.00" y1="186.80" x2="150.00" y2="189.20" stroke="#000" stroke-width="0.25"/>
-<line x1="338.00" y1="186.80" x2="338.00" y2="189.20" stroke="#000" stroke-width="0.25"/>
-<text stroke="none" fill="#000" x="244.0" y="186.5" font-size="3.3" text-anchor="middle" font-weight="normal">188 (= chu vi C2-C4)</text>
-<line x1="150.00" y1="197.00" x2="345.00" y2="197.00" stroke="#000" stroke-width="0.25"/>
-<line x1="150.00" y1="195.80" x2="150.00" y2="198.20" stroke="#000" stroke-width="0.25"/>
-<line x1="345.00" y1="195.80" x2="345.00" y2="198.20" stroke="#000" stroke-width="0.25"/>
-<text stroke="none" fill="#000" x="247.5" y="195.5" font-size="3.3" text-anchor="middle" font-weight="normal">195 (gồm mép dán 7, nhà in xác nhận)</text>
-<line x1="143.00" y1="91.00" x2="143.00" y2="181.00" stroke="#000" stroke-width="0.25"/>
-<line x1="141.80" y1="91.00" x2="144.20" y2="91.00" stroke="#000" stroke-width="0.25"/>
-<line x1="141.80" y1="181.00" x2="144.20" y2="181.00" stroke="#000" stroke-width="0.25"/>
-<text stroke="none" fill="#000" transform="translate(141,136.0) rotate(-90)" font-size="3.3" text-anchor="middle">90</text>
-<text stroke="none" fill="#000" x="247.5" y="211" font-size="3" text-anchor="middle" font-weight="normal">Mép trên (C1) bị co 175/188 = 93%; mép dưới tự do. Cần nhà in làm dieline + distortion grid.</text>
-<text stroke="none" fill="#000" x="247.5" y="216" font-size="3" text-anchor="middle" font-weight="normal">Số đo thủ công, sai lệch nhỏ; F đo = 70 nhưng A-B-E = 61 (lệch 9 mm).</text>
+<path d="M 85.90,30.00 L 85.90,49.00 L 88.50,51.00 L 88.50,53.50 L 86.50,54.50 L 86.50,58.00 L 87.67,59.30 L 89.21,60.60 L 90.57,61.90 L 91.80,63.20 L 92.91,64.50 L 93.93,65.80 L 94.86,67.10 L 95.72,68.40 L 96.51,69.70 L 97.24,71.00 L 97.92,72.30 L 98.54,73.60 L 99.12,74.90 L 99.66,76.20 L 100.15,77.50 L 100.60,78.80 L 101.02,80.10 L 101.40,81.40 L 101.75,82.70 L 102.06,84.00 L 102.34,85.30 L 102.58,86.60 L 102.80,87.90 L 102.99,89.20 L 103.15,90.50 L 103.27,91.80 L 103.37,93.10 L 103.44,94.40 L 103.49,95.70 L 103.50,97.00 L 103.50,197.00 L 103.20,201.00 L 101.50,204.00 L 99.50,205.00 L 44.50,205.00 L 42.50,204.00 L 40.80,201.00 L 40.50,197.00 L 40.50,97.00 L 40.51,95.70 L 40.56,94.40 L 40.63,93.10 L 40.73,91.80 L 40.85,90.50 L 41.01,89.20 L 41.20,87.90 L 41.42,86.60 L 41.66,85.30 L 41.94,84.00 L 42.25,82.70 L 42.60,81.40 L 42.98,80.10 L 43.40,78.80 L 43.85,77.50 L 44.34,76.20 L 44.88,74.90 L 45.46,73.60 L 46.08,72.30 L 46.76,71.00 L 47.49,69.70 L 48.28,68.40 L 49.14,67.10 L 50.07,65.80 L 51.09,64.50 L 52.20,63.20 L 53.43,61.90 L 54.79,60.60 L 56.33,59.30 L 57.50,58.00 L 57.50,54.50 L 55.50,53.50 L 55.50,51.00 L 58.10,49.00 L 58.10,30.00 Z" stroke-width=".8" fill="#eef4f8"/>
+<line x1="58.10" y1="33.00" x2="85.90" y2="33.00" stroke="#000" stroke-width="0.25"/>
+<line x1="58.10" y1="36.50" x2="85.90" y2="36.50" stroke="#000" stroke-width="0.25"/>
+<line x1="58.10" y1="40.00" x2="85.90" y2="40.00" stroke="#000" stroke-width="0.25"/>
+<line x1="58.10" y1="43.50" x2="85.90" y2="43.50" stroke="#000" stroke-width="0.25"/>
+<line x1="40.50" y1="97.00" x2="103.50" y2="97.00" stroke="#000" stroke-width="0.25" stroke-dasharray="1.5 1"/>
+<line x1="40.50" y1="185.50" x2="103.50" y2="185.50" stroke="#000" stroke-width="0.25" stroke-dasharray="1.5 1"/>
+<line x1="72.00" y1="24.00" x2="72.00" y2="209.00" stroke="#000" stroke-width="0.2" stroke-dasharray="6 1 1 1"/>
+<rect x="37.5" y="76" width="69.0" height="127" stroke="#d00" stroke-width=".4" stroke-dasharray="2 1" fill="#d00" fill-opacity=".07"/>
+<line x1="44.42" y1="76.00" x2="99.58" y2="76.00" stroke="#06c" stroke-width="0.35"/>
+<line x1="40.50" y1="97.00" x2="103.50" y2="97.00" stroke="#06c" stroke-width="0.35"/>
+<line x1="40.50" y1="203.00" x2="103.50" y2="203.00" stroke="#06c" stroke-width="0.35"/>
+<line x1="119.50" y1="30.00" x2="119.50" y2="205.00" stroke="#000" stroke-width="0.25"/>
+<line x1="118.30" y1="30.00" x2="120.70" y2="30.00" stroke="#000" stroke-width="0.25"/>
+<line x1="118.30" y1="205.00" x2="120.70" y2="205.00" stroke="#000" stroke-width="0.25"/>
+<text stroke="none" fill="#000" transform="translate(122.5,117.5) rotate(-90)" font-size="3.3" text-anchor="middle">175 ±1</text>
+<line x1="85.90" y1="30.00" x2="120.50" y2="30.00" stroke="#000" stroke-width="0.2"/>
+<line x1="99.50" y1="205.00" x2="120.50" y2="205.00" stroke="#000" stroke-width="0.2"/>
+<line x1="32.50" y1="97.00" x2="32.50" y2="185.50" stroke="#000" stroke-width="0.25"/>
+<line x1="31.30" y1="97.00" x2="33.70" y2="97.00" stroke="#000" stroke-width="0.25"/>
+<line x1="31.30" y1="185.50" x2="33.70" y2="185.50" stroke="#000" stroke-width="0.25"/>
+<text stroke="none" fill="#000" transform="translate(30.5,141.25) rotate(-90)" font-size="3.3" text-anchor="middle">88.5 ±1</text>
+<line x1="40.50" y1="97.00" x2="31.50" y2="97.00" stroke="#000" stroke-width="0.2"/>
+<line x1="40.50" y1="185.50" x2="31.50" y2="185.50" stroke="#000" stroke-width="0.2"/>
+<line x1="32.50" y1="185.50" x2="32.50" y2="205.00" stroke="#000" stroke-width="0.25"/>
+<line x1="31.30" y1="185.50" x2="33.70" y2="185.50" stroke="#000" stroke-width="0.25"/>
+<line x1="31.30" y1="205.00" x2="33.70" y2="205.00" stroke="#000" stroke-width="0.25"/>
+<text stroke="none" fill="#000" transform="translate(30.5,195.25) rotate(-90)" font-size="3.3" text-anchor="middle">19.5 ±1</text>
+<line x1="44.50" y1="205.00" x2="31.50" y2="205.00" stroke="#000" stroke-width="0.2"/>
+<line x1="22.50" y1="30.00" x2="22.50" y2="51.00" stroke="#000" stroke-width="0.25"/>
+<line x1="21.30" y1="30.00" x2="23.70" y2="30.00" stroke="#000" stroke-width="0.25"/>
+<line x1="21.30" y1="51.00" x2="23.70" y2="51.00" stroke="#000" stroke-width="0.25"/>
+<text stroke="none" fill="#000" transform="translate(20.5,40.5) rotate(-90)" font-size="3.3" text-anchor="middle">21</text>
+<line x1="58.10" y1="30.00" x2="21.50" y2="30.00" stroke="#000" stroke-width="0.2"/>
+<line x1="55.50" y1="51.00" x2="21.50" y2="51.00" stroke="#000" stroke-width="0.2"/>
+<line x1="12.50" y1="76.00" x2="12.50" y2="203.00" stroke="#000" stroke-width="0.25"/>
+<line x1="11.30" y1="76.00" x2="13.70" y2="76.00" stroke="#000" stroke-width="0.25"/>
+<line x1="11.30" y1="203.00" x2="13.70" y2="203.00" stroke="#000" stroke-width="0.25"/>
+<text stroke="none" fill="#000" transform="translate(10.5,139.5) rotate(-90)" font-size="3.3" text-anchor="middle">Sleeve 127</text>
+<line x1="37.50" y1="76.00" x2="11.50" y2="76.00" stroke="#000" stroke-width="0.2"/>
+<line x1="37.50" y1="203.00" x2="11.50" y2="203.00" stroke="#000" stroke-width="0.2"/>
+<line x1="58.10" y1="26.00" x2="85.90" y2="26.00" stroke="#000" stroke-width="0.25"/>
+<line x1="58.10" y1="24.80" x2="58.10" y2="27.20" stroke="#000" stroke-width="0.25"/>
+<line x1="85.90" y1="24.80" x2="85.90" y2="27.20" stroke="#000" stroke-width="0.25"/>
+<text stroke="none" fill="#000" x="72.0" y="24.5" font-size="3.3" text-anchor="middle" font-weight="normal">Ø27.8</text>
+<line x1="40.50" y1="212.00" x2="103.50" y2="212.00" stroke="#000" stroke-width="0.25"/>
+<line x1="40.50" y1="210.80" x2="40.50" y2="213.20" stroke="#000" stroke-width="0.25"/>
+<line x1="103.50" y1="210.80" x2="103.50" y2="213.20" stroke="#000" stroke-width="0.25"/>
+<text stroke="none" fill="#000" x="72.0" y="210.5" font-size="3.3" text-anchor="middle" font-weight="normal">Ø63 ±0.7</text>
+<text stroke="none" fill="#000" x="72" y="222" font-size="4" text-anchor="middle" font-weight="bold">MẶT TRƯỚC (1:1)</text>
+<text stroke="none" fill="#000" x="253.0" y="38" font-size="4" text-anchor="middle" font-weight="bold">DIELINE SHRINK SLEEVE – PHỦ THÂN + VAI (1:1)</text>
+<rect x="150" y="52" width="206" height="127" stroke="#d00" stroke-width=".6"/>
+<rect x="350" y="52" width="6" height="127" fill="#d00" fill-opacity=".15" stroke="none"/>
+<text stroke="none" fill="#a00" x="353.0" y="115.5" font-size="2.6" text-anchor="middle" font-weight="normal">dán</text>
+<path d="M 163.4,52.0 L 159.7,55.2 L 156.8,58.4 L 154.6,61.5 L 152.9,64.7 L 151.7,67.9 L 151.1,71.0 L 151.0,74.2 L 151.0,77.4 L 151.0,80.6 L 151.0,83.8 L 151.0,86.9 L 151.0,90.1 L 151.0,93.3 L 151.0,96.5 L 151.0,99.6 L 151.0,102.8 L 151.0,106.0 L 151.0,109.2 L 151.0,112.3 L 151.0,115.5 L 151.0,118.7 L 151.0,121.8 L 151.0,125.0 L 151.0,128.2 L 151.0,131.4 L 151.0,134.6 L 151.0,137.7 L 151.0,140.9 L 151.0,144.1 L 151.0,147.2 L 151.0,150.4 L 151.0,153.6 L 151.0,156.8 L 151.0,159.9 L 151.0,163.1 L 151.0,166.3 L 151.0,169.5 L 151.0,172.7 L 151.0,175.8 L 151.0,179.0 L 349.0,179.0 L 349.0,175.8 L 349.0,172.7 L 349.0,169.5 L 349.0,166.3 L 349.0,163.1 L 349.0,159.9 L 349.0,156.8 L 349.0,153.6 L 349.0,150.4 L 349.0,147.2 L 349.0,144.1 L 349.0,140.9 L 349.0,137.7 L 349.0,134.6 L 349.0,131.4 L 349.0,128.2 L 349.0,125.0 L 349.0,121.8 L 349.0,118.7 L 349.0,115.5 L 349.0,112.3 L 349.0,109.2 L 349.0,106.0 L 349.0,102.8 L 349.0,99.6 L 349.0,96.5 L 349.0,93.3 L 349.0,90.1 L 349.0,86.9 L 349.0,83.8 L 349.0,80.6 L 349.0,77.4 L 349.0,74.2 L 348.9,71.0 L 348.3,67.9 L 347.1,64.7 L 345.4,61.5 L 343.2,58.4 L 340.3,55.2 L 336.6,52.0 Z" fill="#06c" fill-opacity=".08" stroke="#06c" stroke-width=".3" stroke-dasharray="2 1"/>
+<line x1="150.00" y1="52.00" x2="356.00" y2="52.00" stroke="#06c" stroke-width="0.3" stroke-dasharray="3 1.5"/>
+<text stroke="none" fill="#06c" x="152" y="51" font-size="2.9" text-anchor="start" font-weight="normal">h=129: Ø55, C=173, co 16%</text>
+<line x1="150.00" y1="73.00" x2="356.00" y2="73.00" stroke="#06c" stroke-width="0.3" stroke-dasharray="3 1.5"/>
+<text stroke="none" fill="#06c" x="152" y="72" font-size="2.9" text-anchor="start" font-weight="normal">h=108: Ø63, C=198, co 4%</text>
+<line x1="150.00" y1="179.00" x2="356.00" y2="179.00" stroke="#06c" stroke-width="0.3" stroke-dasharray="3 1.5"/>
+<text stroke="none" fill="#06c" x="152" y="178" font-size="2.9" text-anchor="start" font-weight="normal">h=2: Ø63, C=198, co 4%</text>
+<line x1="150.00" y1="186.00" x2="356.00" y2="186.00" stroke="#000" stroke-width="0.25"/>
+<line x1="150.00" y1="184.80" x2="150.00" y2="187.20" stroke="#000" stroke-width="0.25"/>
+<line x1="356.00" y1="184.80" x2="356.00" y2="187.20" stroke="#000" stroke-width="0.25"/>
+<text stroke="none" fill="#000" x="253.0" y="184.5" font-size="3.3" text-anchor="middle" font-weight="normal">206 (chu vi film = 200 × 1.03; gồm mép dán 6)</text>
+<line x1="143.00" y1="52.00" x2="143.00" y2="179.00" stroke="#000" stroke-width="0.25"/>
+<line x1="141.80" y1="52.00" x2="144.20" y2="52.00" stroke="#000" stroke-width="0.25"/>
+<line x1="141.80" y1="179.00" x2="144.20" y2="179.00" stroke="#000" stroke-width="0.25"/>
+<text stroke="none" fill="#000" transform="translate(141,115.5) rotate(-90)" font-size="3.3" text-anchor="middle">127</text>
+<text stroke="none" fill="#000" x="253.0" y="196" font-size="3" text-anchor="middle" font-weight="normal">Vùng xanh = bề mặt chai thật (chu vi theo độ cao); mép trên cần giãn hình ngang ×206/173 để sau khi co hiển thị đúng.</text>
+<text stroke="none" fill="#000" x="253.0" y="201" font-size="3" text-anchor="middle" font-weight="normal">h = chiều cao tính từ đáy. Tỉ lệ co, vị trí đường hàn, lưới méo cuối cùng do nhà in màng co chốt.</text>
 <rect x="5" y="240" width="410" height="52" stroke-width=".6"/>
 <line x1="70.00" y1="240.00" x2="70.00" y2="292.00" stroke="#000" stroke-width="0.4"/>
 <line x1="260.00" y1="240.00" x2="260.00" y2="292.00" stroke="#000" stroke-width="0.4"/>
@@ -95,10 +81,10 @@
 <text stroke="none" fill="#000" x="37" y="261" font-size="3.5" text-anchor="middle" font-weight="bold">Dịch Vụ Minh Thông</text>
 <text stroke="none" fill="#000" x="165" y="252" font-size="4" text-anchor="middle" font-weight="normal">Khách Hàng</text>
 <text stroke="none" fill="#000" x="337" y="251" font-size="5" text-anchor="middle" font-weight="bold">Chai Pet</text>
-<text stroke="none" fill="#000" x="337" y="262" font-size="4.5" text-anchor="middle" font-weight="bold">350ml – CỔ F28_1810 – SLEEVE</text>
+<text stroke="none" fill="#000" x="337" y="262" font-size="4.3" text-anchor="middle" font-weight="bold">350ml – SLEEVE PA.C (sbv 0282)</text>
 <text stroke="none" fill="#000" x="300" y="273" font-size="3.5" text-anchor="middle" font-weight="normal">Vật liệu: PET</text>
 <text stroke="none" fill="#000" x="300" y="283" font-size="3.5" text-anchor="middle" font-weight="normal">Scale 1:1</text>
 <text stroke="none" fill="#000" x="345" y="283" font-size="3.5" text-anchor="middle" font-weight="normal">Gram: 16–20</text>
 <text stroke="none" fill="#000" x="392" y="283" font-size="3.5" text-anchor="middle" font-weight="normal">Trang 1</text>
-<text stroke="none" fill="#000" x="165" y="272" font-size="3.2" text-anchor="middle" font-weight="normal">Theo số đo thủ công (phiếu đo). Hình dạng chi tiết là sơ lược.</text>
+<text stroke="none" fill="#000" x="165" y="272" font-size="3.2" text-anchor="middle" font-weight="normal">Số liệu theo bản vẽ chính thức sbv0282. Hình dạng vai là mô hình gần đúng.</text>
 </svg>
